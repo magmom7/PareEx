@@ -12,3 +12,9 @@ class person(monster):
         self.name = name
         self.skill = skill
         self.health = health
+
+Monster = monster("괴물",124)
+Person = person("유주",1425,100)
+
+Monster.attack()
+Person.attack()
